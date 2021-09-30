@@ -26,6 +26,34 @@ body {
     min-height: 100vh;
 }
 
+.bg-image1 {
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: -50vh;
+    left: -50vh;
+}
+.bg-image2 {
+    background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    bottom: -50%;
+    right: -50%;
+
+}
+
+.bg-image p {
+    height: 500px;
+}
+
 .card {
     margin: 0 auto;
     width: 350px;
